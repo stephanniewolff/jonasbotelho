@@ -1,0 +1,713 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    background-color: #f5cd1b;
+    margin: 20px 20px 20px 20px;
+    color: #000000;
+}
+
+.menu {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 80%;
+    height: 95px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    padding: 40px 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5cd1b; 
+}
+
+.vidaeobra {
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 40px;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.fasdizem {
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 40px;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.novidades {
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 40px;
+    border: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    font-size: 22px;
+    padding: 20px 20px;   
+}
+
+nav {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+.fotoprincipal {
+    position:relative;
+    width: 28%;
+    padding: 20px 50px;
+    float: left;  
+    background-color: white;
+}
+
+.textoprincipal {
+    display: block;
+    width: 70%;
+    font-size: 18px;
+    padding: 20px 100px 50px 100px;
+    background-color: white;
+    height: 505px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+.textomenu {
+    padding: 50px 50px 50px 50px;
+    width: 940px;
+    height: 700px;
+}
+
+.vidaeobratitulo {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 26px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline; 
+}
+
+.vidaeobratexto {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+}
+
+.saibamais {
+    font-family: 'Poppins', sans-serif;
+    width: 15%;
+    height: 30px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.fasdizemtitulo {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 26px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline;
+}
+
+.fasdizemdexto {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.novidadestitulo {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 26px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: underline;
+}
+
+.novidadestexto {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    width: 95%;
+    height: 100px;
+    text-align: right;
+}
+
+.autor {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 100px;
+}
+
+/* pagina vida e obra*/
+
+.vidaeobratitulopg2 {
+    font-family: 'Poppins', sans-serif;
+    display:inline-block;
+    font-size: 26px;
+    padding: 20px 0 20px 30px;
+    text-decoration: underline; 
+}
+
+
+.vidaeobrapg2-1 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft1 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-1 {
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-2 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft2 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-2 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-3 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft3 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-3 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-4 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft4 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-4 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-5 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft5 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-5 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-6 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft6 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-6 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-7 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft7 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-7 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-8 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft8 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-8 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-9 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft9 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+    
+}
+
+.vidaeobratextopg2-9 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-10 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft10 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-10 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-11 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft11 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-11 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-12 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft12 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-12 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-13 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft13 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+    
+}
+
+.vidaeobratextopg2-13 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+.vidaeobrapg2-14 {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.jonas-ft14 {
+    max-width: 50%;
+    height: auto;
+    float:right;
+}
+
+.vidaeobratextopg2-14 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 100px 30px 100px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    width: 95%;
+    height: 100px;
+    text-align: right;
+}
+
+/* pagina o que os fãs dizem*/
+
+.fasdizemtitulopg3 {
+    font-family: 'Poppins', sans-serif;
+    display:inline-block;
+    font-size: 26px;
+    padding: 20px 0 20px 30px;
+    text-decoration: underline; 
+}
+
+.fasdizem-1 {
+    display: inline-block;
+    
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft1 {
+    width: 100px;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.fasdizem-2 {
+    display: inline-block;
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft2 {
+    max-width: 20%;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-2 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.fasdizem-3 {
+    display: inline-block;
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft3 {
+    max-width: 20%;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-3 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.fasdizem-4 {
+    display: inline-block;
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft4 {
+    max-width: 20%;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-4 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.fasdizem-5 {
+    display: inline-block;
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft5 {
+    max-width: 20%;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-5 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.fasdizem-6 {
+    display: inline-block;
+    padding: 20px 50px 100px 50px;
+    width: 85%;
+    height: 300px;
+}
+
+.fas-ft6 {
+    max-width: 20%;
+    height: 100px;
+    float:left;
+    background-color: white;
+    padding: 20px 100px 250px 50px;
+}
+
+.fasdizemtexto-6 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: 300px;
+}
+
+.nome {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    padding: 50px 30px 20px 30px;
+    font-size: 16px;
+    line-height: 1.4;  
+    width: 80%;
+    height: auto;
+
+}
+
+/* pagina novidades*/
+
+.novidadestitulopg4 {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 26px;
+    padding: 20px 20px 20px 30px;
+    text-decoration: underline; 
+    text-align: center;
+    width: 100%;
+}
